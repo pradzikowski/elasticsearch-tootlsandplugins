@@ -1,0 +1,12 @@
+{
+  "name": "pradzikowski/elasticsearch-test",
+  "description": "",
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7",
+    "elasticsearch/elasticsearch": "~6.0"
+  }
+}
