@@ -54,7 +54,7 @@ proxy_pass http://127.0.0.1:5000;
 EOF'
 
 sudo service nginx start
-
+sleep 1m
 #install elasticsearch head
 wget https://github.com/mobz/elasticsearch-head/archive/v5.0.0.tar.gz && tar -xvzf v5.0.0.tar.gz
 cd /home/vagrant/elasticsearch-head-5.0.0 && sudo npm install && nohup npm run start &
